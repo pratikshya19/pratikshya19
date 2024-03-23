@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+
+<body>
+    <form class="signup_form" action="#" method="post">
+        <h2>Sign Up</h2>
+        <input type="email" class="signup-elements" name="email" id="email" placeholder="Email">
+        <input type="password" class="signup-elements" name="password" id="password" placeholder="Create password">
+        <input type="password" class="signup-elements" name="confirm_password" id="confirm_password"
+            placeholder="Confirm password">
+        <div class="passwordconfirm">
+            <input type="checkbox" name="show_hide" id="show_hide"><label for="show_hide"> Show password</label>
+        </div>
+        <button type="submit" class="signup-elements" id="submit_button">Signup</button>
+        <div class="had_account">
+            <p>Already have an account?</p>
+            <p><a href="#" id="login_page"> Login</a></p>
+        </div>
+        <div class="or">
+            <div class="lines">
+                <hr>
+            </div>
+            Or
+            <div class="lines">
+                <hr>
+            </div>
+        </div>
+        <div class="withfacebook">
+            <a href="#" id="facebook" class="otheroptions signup-elements">
+                <img src="facebook.png" alt="facebook">
+                <p>Login with Facebook</p>
+            </a>
+        </div>
+        <div class="withgoogle">
+            <a href="#" id="google" class="otheroptions signup-elements">
+                <img src="google.png" alt="google">
+                <p>Login with Google</p>
+            </a>
+        </div>
+    </form>
+</body>
+
+</html>
